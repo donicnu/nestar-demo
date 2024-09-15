@@ -1,4 +1,5 @@
 App router ichidagi har bir folder Server Side Rendering orqali ishlaydi
 
 Pages da esa client side rendering booladi, va aynan document.tsx da SSR qilsa boladi
+document tsx server side rendering orqali ishga tushadi
 
