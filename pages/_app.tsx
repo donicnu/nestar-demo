@@ -4,6 +4,7 @@ import { CssBaseline } from "@mui/material";
 import { light } from "../scss/MaterialTheme";
 import { useState } from "react";
 import "../scss/app.scss";
+import "../scss/pc/main.scss";
 
 export default function App({ Component, pageProps }: AppProps) {
   // @ts-ignore
@@ -17,6 +18,3 @@ export default function App({ Component, pageProps }: AppProps) {
     </ThemeProvider>
   ); //app qolgan page routing file larga jonatish mantiq
 }
-
-// _app.tsx (index.tsx in redux)  SSR=> Client
-//_document.tsx                   SSR
