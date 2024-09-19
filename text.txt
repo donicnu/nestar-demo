@@ -8,3 +8,9 @@ document tsx server side rendering orqali ishga tushadi
 
 SEO - Search engine orqali oson topish logic
 
+things to do - 
+
+    1. TrendPropertyCard.ts 
+    2. TopAgentCard.tsx  //kind of DONE
+    3. Homepage.scss - Topagents mantiq
+    4. 
