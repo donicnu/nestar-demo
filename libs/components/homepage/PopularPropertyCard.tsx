@@ -36,21 +36,22 @@ const PopularPropertyCard = () => {
             <span>220 m²</span>
           </div>
         </div>
-      </Box>
-      <Divider sx={{ mt: "15px", mb: "17px" }} />
-      <div className={"bott"}>
-        <p>rent</p>
-        <div className="view-like-box">
-          <IconButton color={"default"}>
-            <RemoveRedEyeIcon />
-          </IconButton>
-          <Typography className="view-cnt">50</Typography>
-          <IconButton color={"default"}>
-            <FavoriteIcon style={{ color: "red" }} />
-          </IconButton>
-          <Typography className="view-cnt">250</Typography>
+
+        <Divider sx={{ mt: "15px", mb: "17px" }} />
+        <div className={"bott"}>
+          <p>rent</p>
+          <div className="view-like-box">
+            <IconButton color={"default"}>
+              <RemoveRedEyeIcon />
+            </IconButton>
+            <Typography className="view-cnt">50</Typography>
+            <IconButton color={"default"}>
+              <FavoriteIcon style={{ color: "red" }} />
+            </IconButton>
+            <Typography className="view-cnt">250</Typography>
+          </div>
         </div>
-      </div>
+      </Box>
     </Stack>
   );
 };

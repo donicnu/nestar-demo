@@ -4,7 +4,7 @@
     width: 100%;
     height: auto;
     .trend-properties {
-      padding: 108px;
+      padding: 108px 0px 76px;
       width: 100%;
       height: 697px;
       display: flex;
@@ -71,6 +71,29 @@
               .swiper-top-prev {
                 margin-right: 20px;
                 cursor: pointer;
+              }
+            }
+
+            .more-box {
+              display: flex;
+              flex-direction: row;
+              cursor: pointer;
+              align-items: center;
+
+              span {
+                color: #181a20; // Correct color format
+                font-family: $font; // Use defined font family
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-transform: capitalize;
+              }
+
+              img {
+                margin-left: 10px;
+                width: 16px;
+                height: 16px;
               }
             }
 
@@ -514,12 +537,7 @@
                       line-height: normal;
                       text-transform: capitalize;
                     }
-                    // button {
-                    //    margin-left: 7px;
-                    //    width: 16px;
-                    //    height: 16px;
-                    //    box-sizing: border-box;
-                    // }
+
                     .view-like-box {
                       display: flex;
                       flex-direction: row;
@@ -678,7 +696,7 @@
               .top-card-box {
                 position: relative;
                 width: 300px;
-                height: 380px;
+                height: 400px;
                 display: flex;
                 flex-direction: column;
                 transition: transform 0.3s;
@@ -816,6 +834,7 @@
       height: 697px;
       display: flex;
       flex-direction: row;
+      background: #f6f6f6;
       .container {
         flex-direction: column;
         .info-box {
@@ -898,6 +917,7 @@
           .card-wrapper {
             width: 1174px;
             height: 280px;
+            margin-left: 5px;
             display: flex;
             flex-direction: row;
             .top-agents-swiper {
